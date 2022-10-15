@@ -1,8 +1,17 @@
+@font-face {
+    font-family: "Inconsolata";
+    src: url(../fonts/Inconsolata.ttf);
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Bold.ttf)
+}
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0;
+    font-family: "Inconsolata";
 }
 img {
     display: block;
@@ -16,6 +25,7 @@ img {
     font-size: 2.5em;
     margin: 10px 0;
     color: rgb(190, 22, 72);
+    font-family: "Poppins";
 }
 .main-nav {
     display: none;
