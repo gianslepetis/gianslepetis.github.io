@@ -53,6 +53,12 @@ img {
     display: block;
     padding: 10px;
 }
+
+.main {
+    padding: 0 20px;
+}
+
+/* ESTILOS DE SLIDES */
 .container-slider{
     margin: 50px 0;
     position: relative;
@@ -137,4 +143,18 @@ img {
     text-decoration: none;
     width: 150px;
     margin: 10px auto;
+}
+
+
+/* ESTILOS DE PRODUCTOS */
+
+.container-products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 20px;
 }
