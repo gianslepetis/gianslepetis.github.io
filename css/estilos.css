@@ -53,7 +53,7 @@ img {
 .main-header__input{
     display: block;
     padding: 10px;
-    width: 50px;
+    width: 50%;
 }
 
 .main {
@@ -300,4 +300,14 @@ img {
 }
 .copy {
     color: #555;
+}
+
+/*Estilos para tablet*/
+@media screen and (min-width:768px){
+    .slider{
+        height: 400px;
+    }
+    .editor__item{
+        height: 250px;
+    }
 }
