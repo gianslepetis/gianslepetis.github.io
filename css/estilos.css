@@ -27,13 +27,52 @@ img {
     color: rgb(190, 22, 72);
     font-family: "Poppins";
 }
-.main-nav {
-    display: none;
-}
 .main-header__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.main-header__link {
+    color: #333;
+}
+
+
+/* Estilos del Menu */
+
+.main-nav {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+    z-index: 999999;
+}
+.menu{
+    position: absolute;
+    top: 180px;
+    left: 0;
+    background: #212121;
+    width: 100%;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+}
+.menu__item {
+    padding: 20px;
+    text-align: center;
+}
+.menu__link {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: block;
+}
+.menu__link:hover {
+    background: white;
+    color: #212121;
+}
+.mostrar{
+    opacity: 1;
+    visibility: visible;
 }
 .icon-menu{
     font-size: 1.5em;
@@ -56,11 +95,12 @@ img {
     width: 50%;
 }
 
+
 .main {
     padding: 0 20px;
 }
 
-/* ESTILOS DE SLIDES */
+/* ESTILOS DE SLIDER */
 .container-slider{
     margin: 50px 0;
     position: relative;
@@ -310,4 +350,9 @@ img {
     .editor__item{
         height: 250px;
     }
+}
+/*Estilos para web*/
+
+@media screen and (min-width:1024px) {
+
 }
