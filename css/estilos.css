@@ -136,7 +136,7 @@ img {
 .slider__txt {
     margin: 5px 0;
 }
-.slider__link {
+.btn-shop {
     display: block;
     border: 2px solid #FF4E00;
     color: white;
@@ -193,9 +193,22 @@ img {
     margin-top: 10px;
 }
 
+
+.container__testimonials{
+    text-align: center;
+    color: #333;
+    background: #F7F7F7;
+    padding: 20px;
+    margin: 20px 0;
+}
+.testimonial__txt{
+    color: #777;
+}
 .container-editor {
     margin-top: 20px;
 }
+
+
 .editor__item {
     height: 200px;
     position: relative;
@@ -244,4 +257,47 @@ img {
 }
 .editor__item:hover:before {
     opacity: 1;
+}
+
+.container-tips{
+    margin: 20px 0;
+    text-align: center;
+}
+.tip i{
+    font-size: 2em;
+    color: #333;
+    padding: 20px 0;
+}
+.tip .btn-shop{
+    color:#333;
+}
+
+.main-footer{
+    background: #151515;
+    color: white;
+    padding: 30px 20px;
+}
+.footer__title{
+    border-bottom: 1px dotted #555;
+    padding-bottom: 20px;
+}
+.footer__txt{
+    color: #555;
+}
+.footer__link{
+    color: #555;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+.footer__input{
+    background: #151515;
+    width: 100%;
+    display: block;
+    padding: 20px;
+    border: 1px solid #555;
+}
+.copy {
+    color: #555;
 }
