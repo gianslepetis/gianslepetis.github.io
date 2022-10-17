@@ -327,7 +327,7 @@ img {
     padding-bottom: 20px;
 }
 .footer__txt{
-    color: #555;
+    color: rgb(192, 192, 192);
 }
 .footer__link{
     color: #555;
@@ -344,7 +344,7 @@ img {
     border: 1px solid #555;
 }
 .copy {
-    color: #555;
+    color: rgb(192, 192, 192);
 }
 
 /*Estilos para tablet*/
